@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import CountdownTimer from "./CountdownTimer";
+import Script from "next/script";
 
 interface StickyHeaderProps {
   onBuyClick: () => void;
@@ -27,6 +28,14 @@ export default function StickyHeader({ onBuyClick }: StickyHeaderProps) {
         isVisible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
+      <Script
+          src={
+            (typeof window !== "undefined" && window.location.protocol === "https:"
+              ? "https://secure.trust-provider.com/"
+              : "http://www.trustlogo.com/") + "trustlogo/javascript/trustlogo.js"
+        }
+          strategy="afterInteractive"
+        />
       <div className="container mx-auto px-4 py-2 flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <div className="bg-yellow-500 text-black font-bold p-1 rounded-md">
@@ -44,7 +53,6 @@ export default function StickyHeader({ onBuyClick }: StickyHeaderProps) {
             Comprar Ahora
           </button>
         </div>
-        <script type="text/javascript">const tlJsHost = ((window.location.protocol == "https:") ? "https://secure.trust-provider.com/" : "http://www.trustlogo.com/"); document.write(unescape("<script src='" + tlJsHost + "trustlogo/javascript/trustlogo.js' type='text/javascript' %3E%3C/script%3E"));</script>
       </div>
     </div>
   );
