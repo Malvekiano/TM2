@@ -12,7 +12,7 @@ export default function TerminosPage() {
       <p className="mb-4">
         Este sitio web es operado por una empresa peruana registrada con el siguiente detalle:
         <br />
-        <strong>Razón social:</strong> [Tu nombre completo o razón comercial]<br />
+        <strong>Razón social:</strong> PAJARES YTURRIZAGA CARLOS ENRIQUE<br />
         <strong>RUC:</strong> 10770413414<br />
         <strong>País:</strong> Perú<br />
         <strong>Correo de contacto:</strong> carlospajarero24@outlook.com
