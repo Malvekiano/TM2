@@ -113,7 +113,7 @@ export default function PaymentForm() {
       <h2 className="font-bold text-xl mb-3 sm:mb-4">PROMO 2X1 - Ragnarok y Hombre Alfa</h2>
       <p className="text-xs sm:text-sm mb-3 sm:mb-4">Author: Hombres Peligrosos</p>
       <p className="font-bold text-green-700 mb-4 sm:mb-6">$199.00</p>
-      <p className="text-xs sm:text-sm text-gray-600 mb-4 sm:mb-6">Esta promoción estará activa solo por estos días, no la dejes pasar.</p>
+      <p className="text-xs sm:text-sm text-gray-600 mb-4 sm:mb-6">Muy pronto podras comprar el ebook por este medio.</p>
 
 
       <Button
@@ -123,7 +123,7 @@ export default function PaymentForm() {
           type="submit"
           disabled={isSubmitting}
         >
-          {isSubmitting ? "Procesando..." : "Buy Now"}
+          {isSubmitting ? "Procesando..." : "Comprar ahora"}
         </Button>
     </div>
   );

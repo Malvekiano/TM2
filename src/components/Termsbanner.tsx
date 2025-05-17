@@ -1,5 +1,4 @@
-'use client';
-
+// components/TermsBanner.js
 import { useEffect, useState } from 'react';
 
 export default function TermsBanner() {
@@ -20,19 +19,19 @@ export default function TermsBanner() {
   if (!showBanner) return null;
 
   return (
-    <div className="fixed bottom-0 inset-x-0 bg-white border-t border-gray-300 p-4 shadow-md z-50">
-      <div className="flex justify-between items-center max-w-4xl mx-auto">
-        <p className="text-sm text-gray-700">
-          Al continuar usando este sitio, aceptas nuestros{' '}
-          <a href="/terminos" className="underline text-blue-600">Términos y Condiciones</a>.
-        </p>
-        <button
-          onClick={handleAccept}
-          className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
-        >
-          Aceptar
-        </button>
-      </div>
+    <div className="fixed bottom-0 inset-x-0 bg-gray-900 text-white p-4 text-sm flex flex-col md:flex-row items-center justify-between z-50 shadow-lg">
+      <p className="mb-2 md:mb-0 text-center md:text-left">
+        Al continuar, aceptás nuestros{' '}
+        <a href="/terminos" className="underline text-blue-300 hover:text-blue-400">
+          Términos y Condiciones
+        </a>.
+      </p>
+      <button
+        onClick={handleAccept}
+        className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded transition mt-2 md:mt-0"
+      >
+        Acepto
+      </button>
     </div>
   );
 }

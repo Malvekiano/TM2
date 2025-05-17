@@ -9,6 +9,8 @@ import FloatingBuyButton from "@/components/FloatingBuyButton";
 import BookCarousel from "@/components/BookCarousel";
 import { SectionTransition } from "@/components/PageTransition";
 import TermsBanner from "@/components/Termsbanner";
+import WhatsappButton from "@/components/whatsapp";
+import ContactForm from "@/components/ContactForm";
 
 export default function Home() {
   const paymentFormRef = useRef<HTMLDivElement>(null);
@@ -65,7 +67,7 @@ export default function Home() {
       {/* Main Content */}
       <div className="container mx-auto px-3 sm:px-4 py-4 sm:py-6">
         <SectionTransition>
-          <h1 className="text-center text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">PROMO 2X1</h1>
+          <h1 className="text-center text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">PROMO 2X1 LIBROS</h1>
           <div className="flex justify-center">
               <Image
                 src="/images/promo1.png"
@@ -302,7 +304,7 @@ export default function Home() {
                 Nosotros somos una marca de desarrollo personal masculino.
               </p>
               <p className="text-gray-300 mb-3 sm:mb-4 text-sm sm:text-base">
-                Encuéntranos como @HombresPeligrosos en Instagram con temas de masculinidad, seducción y habilidades sociales. En toda Latinoamérica somos una de las mejores comunidades. A través de este libro contamos los resultados de historias y experiencias personales, experimentos sociales y vivencias de varios hombres con los que hemos hablado. Cada una de ellas, cargadas de enseñanzas y lecciones realmente útiles en el día a día.
+                Eseñamos temas de masculinidad, seducción y habilidades sociales. En toda Latinoamérica somos una de las mejores comunidades. A través de este libro contamos los resultados de historias y experiencias personales, experimentos sociales y vivencias de varios hombres con los que hemos hablado. Cada una de ellas, cargadas de enseñanzas y lecciones realmente útiles en el día a día.
               </p>
               <p className="text-gray-300 mb-3 sm:mb-4 text-sm sm:text-base">
                 Además si obtienes los libros, <strong className="text-yellow-400">te vamos a brindar un acceso exclusivo a un Grupo Privado de WhatsApp</strong> donde te podremos ayudar y acompañar en tu camino a la mejora personal, así podrás forjar tus virtudes y tu propia filosofía de vida de la mejor manera... tambien podemos activarte una carpeta privada con <strong className="text-yellow-400">BONOS EXTRA</strong> para complementar tu lectura, sin olvidar que en el grupo privado también se comparten libros extras para apoyarte.
@@ -313,8 +315,8 @@ export default function Home() {
             </div>
           </div>
         </SectionTransition>
-
-        {/* Bonus Content */}
+        
+        {/* Bonus Content 
         <SectionTransition>
           <div className="mb-6 sm:mb-10">
             <div className="bg-yellow-500 text-black font-bold py-2 sm:py-3 px-4 sm:px-6 rounded mb-4 sm:mb-6 mx-auto max-w-2xl text-center text-sm sm:text-base">
@@ -331,8 +333,9 @@ export default function Home() {
             </div>
           </div>
         </SectionTransition>
+        */}
 
-        {/* WhatsApp Contact */}
+        {/* WhatsApp Contact 
         <SectionTransition>
           <div className="flex justify-center mb-6 sm:mb-10">
             <div className="bg-white text-black p-3 sm:p-4 rounded-lg max-w-xl flex items-center">
@@ -343,15 +346,18 @@ export default function Home() {
             </div>
           </div>
         </SectionTransition>
+        */}
 
+      <ContactForm/>
         {/* Footer */}
         <footer className="text-center text-gray-500 text-xs sm:text-sm pb-6 sm:pb-8">
           
-          <p>Linio - Hombres Tradicionales © 2025 - Todos los derechos reservados</p>
+          <p>Linio - Hombres de Acero © 2025 - Todos los derechos reservados</p>
           <p></p>
         </footer>
       </div>
       <TermsBanner />
+      <WhatsappButton />
     </main>
   );
 }
