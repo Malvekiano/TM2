@@ -14,7 +14,7 @@ export default function TerminosPage() {
         <strong>Razón social:</strong> PAJARES YTURRIZAGA CARLOS ENRIQUE<br />
         <strong>RUC:</strong> 10770413414<br />
         <strong>País:</strong> Perú<br />
-        <strong>Correo de contacto:</strong> carlospajarero24@outlook.com
+        <strong>Correo de contacto:</strong> hombresdeacero@linio.uno
       </p>
 
       <h2 className="text-lg font-semibold mt-6 mb-2">2. Productos ofrecidos</h2>

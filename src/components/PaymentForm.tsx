@@ -115,7 +115,6 @@ export default function PaymentForm() {
       <p className="font-bold text-green-700 mb-4 sm:mb-6">$199.00</p>
       <p className="text-xs sm:text-sm text-gray-600 mb-4 sm:mb-6">Muy pronto podras comprar el ebook por este medio.</p>
 
-
       <Button
           className={`buy-button w-full mb-4 sm:mb-6 h-12 text-base transition-all ${
             isSubmitting ? 'btn-loading opacity-90' : 'active:scale-[0.98]'
