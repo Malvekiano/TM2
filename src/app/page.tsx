@@ -88,9 +88,9 @@ export default function Home() {
         <SectionTransition>
           <div className="flex flex-col items-center mb-6 sm:mb-10">
             <div className="flex items-center space-x-3 sm:space-x-4">
-              <span className="price-strike text-xl sm:text-2xl">$220.00</span>
+              <span className="price-strike text-xl sm:text-2xl">$89.99</span>
               <span className="text-red-500">&gt;</span>
-              <span className="price-new">$199.00</span>
+              <span className="price-new">$49.99</span>
             </div>
             <div className="mt-2">
               <span className="discount-tag text-xs sm:text-sm">¡HAS ACCEDIDO A UN DESCUENTO!</span>
