@@ -27,13 +27,13 @@ export default function Home() {
   const books = [
     {
       id: 1,
-      title: "RAGNAROK",
+      title: "APOTEOSIS",
       subtitle: "El camino de la libertad",
       imageUrl: "/images/ragnarok-book.png"
     },
     {
       id: 2,
-      title: "LEGADO",
+      title: "VOCES ANCESTRALES",
       subtitle: "Lecciones y secretos para generar respeto y poder hombre",
       imageUrl: "/images/hombre-alfa-book.png"
     }
@@ -119,7 +119,7 @@ export default function Home() {
           <div className="mb-6 sm:mb-10">
             <h2 className="text-center text-lg sm:text-xl font-bold mb-4 sm:mb-6">LOS TEMAS DE LOS LIBROS:</h2>
             <div className="bg-zinc-900 p-3 sm:p-4 rounded-md book-content">
-              <h3 className="text-center font-bold mb-3 sm:mb-4 text-base sm:text-lg">CONTENIDO RAGNAROK</h3>
+              <h3 className="text-center font-bold mb-3 sm:mb-4 text-base sm:text-lg">CONTENIDO APOTEOSIS</h3>
               <ul className="space-y-1 sm:space-y-2 text-gray-300 text-sm sm:text-base">
               
                 <li className="flex justify-between border-b border-gray-700 pb-1">
@@ -137,7 +137,7 @@ export default function Home() {
               </ul>
             </div>
             <div className="bg-zinc-900 p-3 sm:p-4 rounded-md mt-4 sm:mt-6 book-content">
-              <h3 className="text-center font-bold mb-3 sm:mb-4 text-base sm:text-lg">Contenido Legado</h3>
+              <h3 className="text-center font-bold mb-3 sm:mb-4 text-base sm:text-lg">Contenido Voces Ancestrales</h3>
               <ul className="space-y-1 sm:space-y-2 text-gray-300 text-sm sm:text-base">
                 <li className="flex justify-between border-b border-gray-700 pb-1">
                   <span>Lideres de la Historia</span>

@@ -110,8 +110,8 @@ export default function PaymentForm() {
 
   return (
     <div id="payment-form" className="bg-white rounded-lg p-4 sm:p-6 text-black mb-6 sm:mb-5">
-      <h2 className="font-bold text-xl mb-3 sm:mb-4">PROMO 2X1 - Ragnarok y Hombre Alfa</h2>
-      <p className="text-xs sm:text-sm mb-3 sm:mb-4">Author: Hombres Peligrosos</p>
+      <h2 className="font-bold text-xl mb-3 sm:mb-4">PROMO 2X1 - Apoteosis y Voces Ancestrales</h2>
+      <p className="text-xs sm:text-sm mb-3 sm:mb-4">Autor: Carlos Pajares</p>
       <p className="font-bold text-green-700 mb-4 sm:mb-6">$49.99</p>
       <p className="text-xs sm:text-sm text-gray-600 mb-4 sm:mb-6">Muy pronto podras comprar el ebook por este medio.</p>
 

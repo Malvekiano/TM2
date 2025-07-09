@@ -5,7 +5,7 @@ export default function TerminosPage() {
       <p className="mb-2">
         Bienvenido a nuestro sitio. Al acceder y utilizar este sitio, aceptas los siguientes términos y condiciones de Hombres Tradicionales.
       </p>
-      <p className="mb-4">Última actualización: 16 de Mayo del 2025</p>
+      <p className="mb-4">Última actualización: 07 de Julio del 2025</p>
 
       <h2 className="text-lg font-semibold mt-6 mb-2">1. Identificación del titular del sitio</h2>
       <p className="mb-4">
@@ -19,23 +19,26 @@ export default function TerminosPage() {
 
       <h2 className="text-lg font-semibold mt-6 mb-2">2. Productos ofrecidos</h2>
       <p className="mb-4">
-        Este sitio ofrece exclusivamente productos digitales en formato de libros electrónicos (eBooks), los cuales se entregan de manera digital tras el pago exitoso.
+        Este sitio ofrece exclusivamente productos digitales en formato de libros electrónicos (eBooks). Actualmente está disponible una promoción 2x1 de mejora personal por USD $50.00, que incluye los siguientes títulos:
+        <br />
+        - <strong>Apoteosis</strong> (obra original de nuestra autoría)<br />
+        - <strong>Voces Ancestrales</strong> (obra original de nuestra autoría)
       </p>
 
       <h2 className="text-lg font-semibold mt-6 mb-2">3. Proceso de compra y pago</h2>
       <p className="mb-4">
-        Las compras se realizan directamente a través de este sitio web utilizando la pasarela de pagos segura <strong>dLocal Go</strong>, la cual permite procesar transacciones internacionales de forma rápida y confiable.
+        Las compras se realizan directamente a través de este sitio web utilizando una pasarela de pagos segura, la cual permite procesar transacciones internacionales de forma rápida y confiable.
         <br />
-        Los precios de los productos están establecidos en <strong>dólares estadounidenses (USD)</strong>. Sin embargo, <strong>dLocal Go</strong> permite el cobro en moneda local, realizando la conversión automáticamente al tipo de cambio vigente.
+        Los precios de los productos están establecidos en <strong>dólares estadounidenses (USD)</strong>. La pasarela permite el cobro en moneda local, realizando la conversión automáticamente al tipo de cambio vigente.
         <br />
         El sitio cuenta con un certificado de seguridad SSL (HTTPS) que garantiza la protección de los datos ingresados por los usuarios durante el proceso de pago.
         <br />
-        Una vez completado el pago, el producto digital estará disponible para descarga inmediata o será enviado al correo electrónico proporcionado durante la compra.
+        Una vez completado el pago, los eBooks estarán disponibles para descarga inmediata o serán enviados al correo electrónico proporcionado durante la compra.
       </p>
 
       <h2 className="text-lg font-semibold mt-6 mb-2">4. Entrega del producto</h2>
       <p className="mb-4">
-        La entrega se realiza automáticamente una vez confirmado el pago. No se realizan envíos físicos de ningún tipo.
+        La entrega de los productos digitales se realiza automáticamente una vez confirmado el pago. No se realizan envíos físicos de ningún tipo.
       </p>
 
       <h2 className="text-lg font-semibold mt-6 mb-2">5. Políticas de devolución y soporte</h2>
@@ -47,12 +50,17 @@ export default function TerminosPage() {
 
       <h2 className="text-lg font-semibold mt-6 mb-2">6. Propiedad intelectual</h2>
       <p className="mb-4">
-        Todos los eBooks son propiedad del autor o titular legal. Está prohibida su copia, redistribución, modificación o reventa sin autorización expresa y por escrito.
+        Todos los eBooks son propiedad del autor o del titular legal de los derechos de distribución. En particular:
+        <br />
+        - <strong>Apoteosis</strong> es una obra original creada por el equipo de Hombres Tradicionales.<br />
+        - <strong>Voces Ancestrales</strong> cuenta con autorización expresa de distribución.
+        <br />
+        Está prohibida su copia, redistribución, modificación o reventa sin autorización escrita.
       </p>
 
       <h2 className="text-lg font-semibold mt-6 mb-2">7. Protección de datos personales</h2>
       <p className="mb-4">
-        Este sitio no almacena directamente información personal sensible. Los datos relacionados con pagos son procesados de forma segura a través de dLocal Go.
+        Este sitio no almacena directamente información personal sensible. Los datos relacionados con pagos son procesados de forma segura a través de la pasarela de pagos utilizada.
         <br />
         Cumplimos con la Ley N.º 29733 – Ley de Protección de Datos Personales del Perú. Si un usuario desea ejercer sus derechos de acceso, rectificación o cancelación, puede contactarnos al correo indicado.
       </p>
